@@ -9,19 +9,7 @@ let turn = 0;
 
 //reset and delete everything from board
 
-function reset (){
-    for (i=0; i<9; i++){
-        document.querySelectorAll('.sqr').innerText = '';
-        tie = 0;
-        winner = 0;
-        turn = 0;
-        document.querySelector('#message').innerText = "first player's turn (X)";
-    }
-}
-
-for (i=0; i<9; i++){
-    document.querySelectorAll(".sqr")[index].addEventListener('click', choose ();}
-reset.addEventListener('click', reset ();
+// this did not work the way it should, will look into it later
 
 
 -------------------------------------------------------------
