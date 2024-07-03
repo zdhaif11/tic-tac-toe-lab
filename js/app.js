@@ -1,4 +1,4 @@
-const reset = document.querySelector('#reset');
+
 
 let winner = 0;
 let tie = 0;
